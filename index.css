@@ -1,0 +1,150 @@
+body{
+  width: 1280px;
+  height: 1653px;
+  margin: auto;
+  background-image: url('https://raw.githubusercontent.com/suyuming/suyuming/master/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+@font-face {
+  @import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
+  font-family: 'Noto Sans TC';
+}
+
+.bigger-30{
+  font-size: 30px;
+}
+
+.smaller-20{
+  font-size: 20px;
+}
+
+.logo{
+  margin: 44px 367px 47px 44px;
+  float: left;
+}
+
+.catalog{
+  margin: 88px 70px 47px 0px;
+  float: right;
+  width: 400px;
+  height: 100px;
+  list-style: none;
+}
+
+.catalog .horizontal{
+  display: inline;
+  margin-right: 90px;
+}
+
+span,a{
+  text-decoration: none;
+  color: white;
+  font-family: 華康新篆體,'Noto Sans TC';
+}
+
+.pointer:hover{
+  cursor: pointer;
+}
+
+.menu-toggle li{
+  position: relative;
+  list-style: none;
+  margin-left: 270px;
+  height: 40px;
+  width: 80px;
+  background-color: black;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.main{
+  height: 1340px;
+  width: 100%;
+}
+
+.shift-pic{
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.shift{
+  display: none;
+}
+
+.shift img{
+  width: 100%;
+}
+
+.start-shift{
+  display: block;
+}
+
+.prev-arrow{
+  position: relative;
+  top: 65px;
+  left: 570px;
+}
+
+.shift-catalog{
+  list-style: none;
+  margin: 30px 560px 115px 560px;
+}
+
+.shift-catalog li{
+  display: inline;
+  padding-left: 10px;
+}
+
+.shift-catalog .dot{
+  font-size: 30px;
+  color: white;
+}
+
+.shift-catalog .start-dot{
+  color:black;
+}
+
+.arrow-next{
+  position: relative;
+  bottom: 143px;
+  right: 550px;
+}
+
+.box{
+  height: 550px;
+  width: 550px;
+  float: left;
+  margin-left: 40px;
+}
+
+.content-right{
+  margin-left: 100px;
+}
+
+.content-left img{
+  padding-top: 2%;
+}
+
+.content-right img{
+  position: relative;
+  right: 10%;
+}
+.box img{
+  padding-left:20%;
+}
+
+.content-left,.content-right p{
+  color: white;
+  font-size: 30px;
+}
+
+.footer{
+  height: 100px;
+  width: 100%;
+  margin-top: 16.4%;
+}
